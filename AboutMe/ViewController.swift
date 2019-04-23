@@ -9,15 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var hobbieLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        print("My name is Michael. ")
-//        print("Hello there.")
-       
+        //        print("My name is Michael. ")
+        //        print("Hello there.")
+        nameLabel.text = ""
+        hobbieLabel.text = ""
+        
     }
     
     @IBAction func introduceYourselfButtonPressed(_ sender: UIButton) {
